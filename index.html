@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <section id="home">
+            <div class="page-header">
+                <img id="imgHeader" src="photos/CN.gif" class="img-responsive">
+            </div>
+        </section>
+        <section id="gridview">
+            <h2>Grid gallery</h2>
+            <br>
+            <div class="row">
+                <img class="imgGrid" src="photos/tom_and_jerry.jpg">
+                <img class="imgGrid" src="photos/scooby_doo.jpg">
+                <img class="imgGrid" src="photos/dexter's_laboratory.jpg">
+            </div>
+            <br>
+            <div class="row">
+                <img class="imgGrid" src="photos/powerpuff_girls.jpg">
+                <img class="imgGrid" src="photos/duck_tales.jpg">
+                <img class="imgGrid" src="photos/mowgli.jpg">
+            </div>
+            <br>
+            <div class="row">
+                <img class="imgGrid" src="photos/flinstones.jpg">
+                <img class="imgGrid" src="photos/pokemon.jpg">
+                <img class="imgGrid" src="photos/popeye.jpg">
+            </div>
+        </section>
+        <section id="slideview">
+            <h2>90's Famous Cartoons</h2>
+            <div id="myCarousel" class="carousel slide">
+                <!--Indicators-->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                    <li data-target="#myCarousel" data-slide-to="6"></li>
+                    <li data-target="#myCarousel" data-slide-to="7"></li>
+                    <li data-target="#myCarousel" data-slide-to="8"></li>
+                </ol>
+                <!--Wrapper for slides-->
+                <div class="carousel-inner">
+                    <div class="item  active">
+                        <center>
+                            <img src="photos/tom_and_jerry.jpg" class="img-responsive">
+                            <div class="carousel-caption">
+                                <h3>Tom and Jerry</h3>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="photos/scooby_doo.jpg" class="img-responsive">
+                            <div class="carousel-caption">
+                                <h3>The Scooby-doo Show</h3>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="photos/flinstones.jpg" class="img-responsive">
+                            <div class="carousel-caption">
+                                <h3>Flinstones</h3>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="photos/duck_tales.jpg" class="img-responsive">
+                            <div class="carousel-caption">
+                                <h3>Duck Tales</h3>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="photos/popeye.jpg" class="img-responsive">
+                            <div class="carousel-caption">
+                                <h3>Popeye</h3>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="photos/dexter's_laboratory.jpg" class="img-responsive">
+                            <div class="carousel-caption">
+                                <h3>Dexter's Laboratory</h3>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="photos/pokemon.jpg" class="img-responsive">
+                            <div class="carousel-caption">
+                                <h3>Pokemon</h3>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="photos/mowgli.jpg" class="img-responsive">
+                            <div class="carousel-caption">
+                                <h3>Mowgli</h3>
+                            </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                            <img src="photos/powerpuff_girls.jpg" class="img-responsive">
+                            <div class="carousel-caption">
+                                <h3>Powerpuff Girls</h3>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+
+                <!--Left and right navigation-->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </section>
+    </div>
+</body></html>
